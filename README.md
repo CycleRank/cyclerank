@@ -3,7 +3,7 @@ CycleRank
 
 ## CycleRank
 
-`cyclerank.cpp` is the source for the CycleRank algorithm:
+`cyclerank.cpp` is the source for the CycleRank algorithm.
 
 It can be compiled with the compilation command:
 ```
@@ -27,9 +27,14 @@ Usage:
 ## Personalized PageRank
 
 
+`cyclerank.cpp` is the source for the CycleRank algorithm.
+
+It can be compiled with the compilation command:
 ```
 /usr/bin/g++ pagerank.cpp -Wall -std=c++11 -O2 -static -s -pthread -I/usr/local/include/igraph -L/usr/local/lib -ligraph -o pagerank                                                   1 ↵
 ```
+
+You want to launch it with the `-w, --wholenetwork` flag to compute it on the whole graph. Furthermore, if you want to compute CheiRank use the `-t, --transposed` flag.
 
 ### Usage
 ```
