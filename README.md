@@ -1,6 +1,9 @@
 CycleRank
 ---------
 
+This repository is a companion for the paper "CycleRank, or There and Back Again: Personalized Relevance Scores from Cyclic Paths on Directed Graphs". 
+
+
 ## CycleRank
 
 `cyclerank.cpp` is the source for the CycleRank algorithm.
